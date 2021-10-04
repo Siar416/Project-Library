@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href="styles.css">
+    <title>Library</title>
+</head>
+<body>
+    <div id='header'>
+        <h1>Personal Library</h1>
+</div>
+    <div class='tableContainer'>
+        <table id="tableData">
+            <thead>
+            <tr>
+                <td>Title</td>
+                <td>Author</td>
+                <td>Pages</td>
+                <td>Read Status</td>
+                <td></td>
+                <td></td>
+            </tr>
+            </thead>
+        <tbody id='tableBody'>
+            <!--<td data-title = 'title'></td>
+            <td data-author = 'author'></td>
+            <td data-pages = 'pages'></td>
+            <td data-read = 'read'></td>
+            <td id='readButton'><button class='btn' id='btnRead'>Read Status</button></td>
+            <td id='delButton'><button class='btn' id='btnDel'>Del</button></td>-->
+        </tbody>
+        </table>
+        <div class='formContainer'>
+            <button id=newBook>Add Book</button>
+
+                <div id='newBookForm'>
+                    <form action="#" id='form' method="post" name='form'>
+                        <input type="text" placeholder="Title" id='inputTitle' value=''>
+                        <input type="text" placeholder="Author" id='inputAuthor' value=''>
+                        <input type="number" placeholder="Number of pages" id='inputPages' value=''>
+                        <input type="text" placeholder="Read?" id='inputRead' value=''>
+                        <button id='submitNewBook'>Submit</button>
+                    </form>
+                </div>
+        </div>
+
+        <div id='footer'>
+            <h2>Created By: Siar Wahidi</h2>
+
+        </div>
+
+
+
+
+    <script src='script.js'></script>
+</body>
+</html>
